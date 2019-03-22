@@ -1,6 +1,12 @@
 {
     "name": "sprii/user-action-log",
     "description": "This is for log all the user event",
+    "authors": [
+        {
+            "name": "Harsha Lasith",
+            "email": "harsha@sprii.com"
+        }
+    ],
     "require": {
         "php": ">=7.1",
         "illuminate/console": "~5.6.0|~5.7.0|~5.8.0",
@@ -8,12 +14,6 @@
         "illuminate/encryption": "~5.6.0|~5.7.0|~5.8.0",
         "illuminate/support": "~5.6.0|~5.7.0|~5.8.0"
     },
-    "authors": [
-        {
-            "name": "Harsha Lasith",
-            "email": "harsha@sprii.com"
-        }
-    ],
     "autoload": {
         "psr-4": {
             "Sprii\\UserActionLog\\": "src/"
