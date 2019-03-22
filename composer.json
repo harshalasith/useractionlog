@@ -1,0 +1,39 @@
+{
+    "name": "sprii/user-action-log",
+    "description": "This is for log all the user event",
+    "require": {
+        "php": ">=7.1",
+        "illuminate/console": "~5.6.0|~5.7.0|~5.8.0",
+        "illuminate/database": "~5.6.0|~5.7.0|~5.8.0",
+        "illuminate/encryption": "~5.6.0|~5.7.0|~5.8.0",
+        "illuminate/support": "~5.6.0|~5.7.0|~5.8.0"
+    },
+    "authors": [
+        {
+            "name": "Harsha Lasith",
+            "email": "harsha@sprii.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Sprii\\UserActionLog\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sprii\\UserActionLog\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "8.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Sprii\\UserActionLog\\UserActionLogServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
