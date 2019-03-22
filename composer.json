@@ -24,16 +24,6 @@
             "Sprii\\UserActionLog\\Tests\\": "tests/"
         }
     },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "8.0-dev"
-        },
-        "laravel": {
-            "providers": [
-                "Sprii\\UserActionLog\\UserActionLogServiceProvider"
-            ]
-        }
-    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
