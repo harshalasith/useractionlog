@@ -1,6 +1,7 @@
 {
     "name": "sprii/user-action-log",
     "description": "This is for log all the user event",
+    "license": "MIT",
     "authors": [
         {
             "name": "Harsha Lasith",
