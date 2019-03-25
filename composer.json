@@ -1,7 +1,8 @@
 {
     "name": "sprii/user-action-log",
     "description": "This is for log all the user event",
-    "license": "MIT", 
+    "homepage": "https://github.com/harshalasith/useractionlog",
+    "license": "MIT",
     "authors": [
         {
             "name": "Harsha Lasith",
@@ -18,11 +19,6 @@
     "autoload": {
         "psr-4": {
             "Sprii\\UserActionLog\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Sprii\\UserActionLog\\Tests\\": "tests/"
         }
     }
 }
